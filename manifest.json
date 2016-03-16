@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "QRUrl",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon/icon.png",
+    "default_popup": "popup.html",
+    "default_title": "生成当前页的二维码"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
